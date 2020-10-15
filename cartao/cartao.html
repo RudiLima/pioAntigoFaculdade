@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>Cartões</title>
+		<link rel="stylesheet" type="text.css" href="cartao.css"/>
+	</head>
+	<body align="center" background="Img_Fundo/f_black.jpg">
+			<h1>Cartões</h1>
+			<img src="img/cartao01.jpg"/>
+			<p>
+			Visando garantir a segurança e inviolabilidade dos dados registrados nos cartões,
+			a PRODATA MOBILITY BRASILdesenvolveu um módulo SAM que incorpora “assinaturas eletrônicas”
+			nas transações, que são verificadas sempre que o cartão é utilizado.
+			Esta característica, juntamente com as chaves de acesso ao cartão
+			(que são emitidas pelo sistema e são diferentes para cada cartão)
+			confere um alto grau de segurança e confiabilidade à solução.<br>
+			Para garantir o controle de acesso ao sistema, todos os componentes e operadores devem estar registrados,
+			com definições de chave de acesso individual por operador, para poder operar os aplicativos.
+			Vários mecanismos de armazenamento de “log” permitem que as operações sejam rastreadas e o responsável identificado.<br>
+			Assim sendo, os dados armazenados na base de dados estão protegidos por chaves,
+			com o objetivo de garantir a segurança, incluída dentro do sistema de gestão.
+				<br>
+			</p>
+			<h1>Aplicações:</h1><br>
+				<p>
+				O módulo (chip) SAM, no formato SIM ID000,
+				é um componente externo com características físicas
+				de segurança que se utiliza para garantir:
+					<br>
+				</p>
+					<ul>
+						<li>Autenticidade de todas as transações geradas por cada um dos elementos do sistema de bilhetagem</li>
+						<li>  Inviolabilidade do cartão</li>
+						<li>Impossibilidade de criação de créditos fictícios no sistema; como consequência evitar a fraude.</li>
+					</ul>
+						<br>
+				<p>
+					Internamente o SAM possui 16 chaves por emissor, sendo cada uma de 16 bytes,
+					que são utilizadas para todas as operações seguras,
+					tais como: assinatura de dados em cartão MIFARE,
+					transações monetárias e todo e qualquer processo seguro.
+				</p>
+					<br>
+			<h1> Funcionalidades:</h1>
+					<br>
+				<ul>
+					<li>“Geração das chaves de segurança – Master e SAM’s”</li>
+					<li>“Geração e controle da emissão de créditos eletrônicos para comercialização”</li>
+					<li>“Geração de assinaturas eletrônicas e criptografias dos dados em todas as transações do sistema”</li>
+				</ul>
+					<br>
+			<h1> Criptografia dos dados</h1>
+					<br>
+			<p>
+					<br>
+			O conceito criptográfico utilizado é o de sistemas de chaves simétricas,
+			onde somente cada interlocutor (neste caso o chip SAM) tem conhecimento.
+			Operações como gravação em cartões Mifare, Transações Monetárias,
+			Validação/Geração de criptogramas são todas assinadas utilizando uma das 16 chaves internas.
+			Qualquer operação insegura, ou seja, sem a utilização do SAM,
+			será inválida por não apresentar a assinatura adequada, a qual somente o SAM tem conhecimento.
+			Este método garante que qualquer SAM do sistema possa interagir com os dados assinados,
+			desde que tenha atendido as condições hierárquicas.
+			Dentre as mais diversas tecnologias existentes no mercado,
+			a PRODATA MOBILITY BRASIL incorporou em suas aplicações como padrão um SAM standard ATMEL,
+			devido a sua flexibilidade, segurança, estabilidade e pela velocidade de implantação,
+			que apresenta como principais características:
+			possui sistema operacional desenvolvido com funcionalidades especificas
+			para aplicação em sistemas de bilhetagem eletrônica no transporte coletivo
+			</p>
+					<br>
+				<ul>
+					<li>oferece garantia de segurança das transações, em especial as operações monetárias (débito e crédito)</li>
+					<li> utiliza algoritmos para criptografia e assinatura eletrônica que certificam todas as transações do sistema</li>
+					<li>  permite a auditoria de todas as transações</li>
+					<li>maior velocidade para realizar a transação, outras rotinas de mercado, como Javacard e Multos, impactam no tempo da transação</li>
+				</ul>
+						<br>
+			<p>
+				facilita a interoperabilidade, permitindo que outros provedores se integrem sem conhecer as regras de segurança e o mapping do cartão.
+					<br>
+			</p>
+			  <h1>Procedimentos para GeraÃ§Ã£o das Chaves Diversificadas</h1>
+			  		<br>
+			  <p>
+			Para a geração das chaves diversificadas é necessário efetuar o processo de Cerimonial
+			que ocorre no início do projeto com a finalidade de criar um cartão mestre que deverá garantir
+			a segurança do sistema, e será a garantia da a autenticidade dos cartões.
+			Para o Cerimonial são necessários 4 (quatro) participantes, sendo que cada participante:
+			Recebe o PIN, número para acesso interno do cartão em envelope lacrado
+			 </p>
+				 <ul>
+				 	<li>Cada cartão é introduzido nas leitoras de cartões conectadas ao computador (4 leitoras)</li>
+				 	<li>  Deve informar no sistema: seu nome, o PIN e uma frase secreta de no mínimo 30 caracteres</li>
+				 	<li>Opcionalmente, cada participante poderá imprimir a frase secreta.</li>
+				 </ul>
+			 <p>
+			Todos os demais cartões SAM são gerados a partir do cartão mestre (hierarquia),
+			e estes cartões SAM são responsáveis pela geração e
+			distribuição de créditos virtuais e possibilitam rastreamento dos créditos.
+			Assim sendo, o módulo SAM garantirá a certificação da transação feita através da utilização de um:
+			Validador do sistema – embarcado ou em estações (paradas ou terminais);
+			 </p>
+				 <ul>
+				 	<li>Terminal de venda – posto de venda (PDV ou POS);</li>
+				 	<li>Cartão inteligente sem contatos;</li>
+				 	<li>Terminal</li>
+				 </ul>
+				 		<br>
+				 		<br>
+			 <a href="../Principal_1/TECNOLOGIA.html">
+			 	<img src="../Img_All/back.png">
+			 </a>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+<style type="text/css">
+<!--
+ul#menu {
+width:285px;
+border:2px solid #90EE90;
+background:#FFFFFF;
+margin:5;
+padding:5;
+list-style-type:none;
+}
+ul#menu li {
+border-bottom:4px solid #EE6363;
+}
+ul#menu li a:link, ul#menu li a:visited {
+display:block;
+height:2.5%;
+text-decoration:none;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+border-left:30px solid #FFC125;
+padding-left:5px;
+}
+ul#menu li a:hover {
+background-color: #00BFFF;
+color:#00008B;
+border-left:14px solid #000080;
+}
+ul#menu {
+width:285px;
+border:2px solid #90EE90;
+background:#FFFFFF;
+margin:5;
+padding:5;
+list-style-type:none;
+}
+ul#menu li {
+border-bottom:4px solid #EE6363;
+}
+ul#menu li a:link, ul#menu li a:visited {
+display:block;
+height:2.5%;
+text-decoration:none;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+border-left:30px solid #FFC125;
+padding-left:5px;
+}
+ul#menu li a:hover {
+background-color: #00BFFF;
+color:#00008B;
+border-left:14px solid #000080;
+}
+ul#menu {
+width:285px;
+border:2px solid #90EE90;
+background:#FFFFFF;
+margin:5;
+padding:5;
+list-style-type:none;
+}
+ul#menu li {
+border-bottom:4px solid #EE6363;
+}
+ul#menu li a:link, ul#menu li a:visited {
+display:block;
+height:2.5%;
+text-decoration:none;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+border-left:30px solid #FFC125;
+padding-left:5px;
+}
+ul#menu li a:hover {
+background-color: #00BFFF;
+color:#00008B;
+border-left:14px solid #000080;
+}
+-->
+
+</style>

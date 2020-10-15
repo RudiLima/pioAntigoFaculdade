@@ -1,0 +1,29 @@
+	h1, h3{
+		color:#030303;
+		background-color:#eaaa15;
+		
+	}
+body{
+	background-image: url("../Img_All/f_black.jpg");
+	width: 100%;
+	height: 100%;	
+	background-attachment: scroll;
+	Background-repeat: repeat;
+}
+p{
+	color:#ffffff;
+}
+img{
+	border-width: 10px;
+		border-style: double;
+		border-color: black;
+}
+u{
+	color:#ffffff;
+}
+div{
+	color:#999797;
+}
+ol, ul{
+	color:#ffffff;
+}
